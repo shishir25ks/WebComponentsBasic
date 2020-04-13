@@ -11,7 +11,7 @@ class AppDrawer extends HTMLElement {
     }
     // called every time when element is removed from DOM
     disconnectedCallback() {
-        console.log('disconnected!');
+        console.log('Disconnected!');
     }
 
     attributeChangedCallback(name, oldVal, newVal) {
